@@ -7,6 +7,13 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    colors: {
+      brand: '#F8BE1A',
+      black: '#000000',
+      warning: '#ff0000',
+      info: '#2563eb',
+      success: '#10b981',
+    },
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -16,5 +23,5 @@ const config: Config = {
     },
   },
   plugins: [],
-}
+};
 export default config
